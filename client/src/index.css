@@ -1,0 +1,81 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Monda:wght@400..700&family=Racing+Sans+One&display=swap');
+
+body{
+  background-color: rgb(21, 21, 21);
+  
+}
+@layer utilities{
+
+  *{
+    font-family: "Monda", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+  }
+}
+
+.nav-cumtom-btn-style {
+  @apply relative hover:text-gray-400 duration-200 after:content-[''] after:absolute after:bg-blue-700 after:h-[2px] after:w-[0] after:left-0 after:bottom-[-2px] after:rounded-2xl after:duration-300 hover:after:w-full;
+}
+.active{
+  @apply relative text-gray-400 after:content-[''] after:absolute after:bg-blue-700 after:h-[2px] after:w-[100%] after:left-0 after:bottom-[-2px] after:rounded-2xl;
+}
+
+@layer utilities {
+  .bg-gradient-300 {
+    
+    background: linear-gradient(300deg, #ffffff,#c3c2c2,#2d2d2d, #c3c2c2, #ffffff);
+    animation:gradient-animation 10s ease infinite ;
+    background-size: 180% 180%;
+
+    @apply bg-clip-text text-transparent overflow-x-hidden;
+
+    
+  }
+  
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+@layer utilities {
+  .slider-text {
+    z-index: 19;
+    background-color: rgba(0, 0, 0, 0.537);
+    @apply rounded-[8px] h-full w-full absolute flex justify-center items-center px-2 text-center;
+  }
+}
+
+@layer utilities {
+  @keyframes slideIn {
+    0% {
+      transform: translateX(-15%);
+      opacity: 0;
+
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+
+  .animate-slideIn {
+    animation: slideIn 0.7s ease-in-out forwards;
+  }
+}
+
+.racing-sans-one-regular {
+  font-family: "Racing Sans One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
