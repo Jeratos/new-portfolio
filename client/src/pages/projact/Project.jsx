@@ -32,7 +32,7 @@ let API = import.meta.env.VITE_URI_API
         </h2>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
-          {projectData.map((project, index) => (
+          {projectData.map((project) => (
             <div
               key={project._id}
               className="relative bg-white/5 backdrop-blur-lg border border-white/10 shadow-xl rounded-3xl overflow-hidden transition-transform duration-300 hover:-translate-y-2 group"

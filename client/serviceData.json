@@ -1,39 +1,27 @@
 [
-    {
-      "title": "Finance",
-      "description": "A modern finance landing page with animated stats, responsive layout, and smooth scroll effects. Built using React and Tailwind CSS.",
-      "img":"/public/serviceImage/finance.png",
-      "url": "https://jeratos.github.io/financeHeader/"
-    },
-    {
-      "title": "E-commerce",
-      "description": "An e-commerce frontend layout showcasing product listings, filtering, and a clean shopping UI. Built using React and Bootstrap.",
-      "img":"/public/serviceImage/e-commerce.png",
-      "url": ""
-    },
-    {
-      "title": "Dog Selling Website",
-      "description": "A pet adoption and selling website made using HTML, CSS, and Bootstrap, featuring service listings and a responsive layout.",
-      "img":"/public/serviceImage/TinDog.png",
-      "url": "https://jeratos.github.io/bootstra-framework-website/"
-    },
-    {
-      "title": "Portfolio",
-      "description": "My personal developer portfolio built with React and styled with Tailwind CSS. Features project showcases and smooth scroll navigation.",
-      "img":"/public/serviceImage/portfolio.png",
-      "url": "https://jeratos.github.io/portfolio/"
-    },
-    {
-      "title": "Guess the Number (Game)",
-      "description": "A fun JavaScript-based number guessing game with simple UI and interactive gameplay logic. Great for beginner-level logic practice.",
-      "img":"/public/serviceImage/Guess.png",
-      "url": "https://jeratos.github.io/guessTheNumber/"
-    },
-    {
-      "title": "Tech Solution",
-      "description": "A mock IT solution agency website built using the MERN stack. Designed to showcase services and contact options with a professional UI.",
-      "img":"/public/serviceImage/TechSolution.png",
-      "url": ""
-    }
-  ]
-  
+  {
+    "title": "Web Development",
+    "img": "/public/serviceImage/web-development.png"
+  },
+  {
+    "title": "Front-End Development",
+    "img": "/public/serviceImage/front-end.jpg"
+  },
+  {
+    "title": "Back-End Development",
+    "img": "/public/serviceImage/back-end.webp"
+  },
+  {
+    "title": "Portfolio Template",
+    "img": "/public/serviceImage/portfolio.webp"
+  },
+  { "title": "Finance Web App", "img": "/public/serviceImage/finance.jpg" },
+  {
+    "title": "Real Estate Website",
+    "img": "/public/serviceImage/realEstate.jpg"
+  },
+  {
+    "title": "MERN Stack Development",
+    "img": "/public/serviceImage/mernStack.png"
+  }
+]

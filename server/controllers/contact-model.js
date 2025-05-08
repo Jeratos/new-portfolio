@@ -1,6 +1,6 @@
 import Contact from "../model/model.js";
 import { projectData } from "../model/projectModel.js";
-
+import { serviceData } from "../model/serviceModel.js";
 let contact= async(req,res)=>{
      try {
           
@@ -21,7 +21,16 @@ export let project = async(req,res)=>{
         return  res.status(200).json(data);
           
      } catch (error) {
-          console.log(error)
+          console.log(error.message)
+     }
+}
+
+export let service =async(req,res)=>{
+     try {
+          let data= await serviceData.find();
+          return res.status(200).json(data);
+     } catch (error) {
+          console.log(error.message)
      }
 }
 export default contact
