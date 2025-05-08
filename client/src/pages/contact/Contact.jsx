@@ -62,7 +62,7 @@ if(response.ok){
             <div className="space-y-10 text-left">
               <div>
                 <h2 className="text-green-400 font-bold text-2xl mb-2">Let’s Talk:</h2>
-                <p className="text-gray-300">+91 7798598846</p>
+                <p className="text-gray-300">+91 8805388474</p>
               </div>
               <div>
                 <h2 className="text-green-400 font-bold text-2xl mb-2">Email:</h2>
